@@ -39,4 +39,13 @@
 - To delete all containers
     ```docker rm -f $(docker ps -aq)```
 
+- To get logs
+    ```docker logs u1```
+- To get follow logs
+    ```docker logs -f u1```
 
+- To build Dockerfile. The file name is Dockerfile
+    ```docker build . -t jpalaparthi/ubuntuwithvim```
+
+- To build docker with a different filename and a tag
+    ```docker build -f DockerfileWithRust . -t jpalaparthi/ubuntuwithrust:0.0.1```
