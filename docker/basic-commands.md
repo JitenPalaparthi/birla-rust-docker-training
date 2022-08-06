@@ -49,3 +49,7 @@
 
 - To build docker with a different filename and a tag
     ```docker build -f DockerfileWithRust . -t jpalaparthi/ubuntuwithrust:0.0.1```
+
+- To push images to docker
+
+```docker push jpalaparthi/ubuntuwithrust:0.0.1```
